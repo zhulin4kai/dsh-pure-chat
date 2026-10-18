@@ -26,6 +26,8 @@ dsh-plugin-pure-chat/   Host + Client 单 bundle
 dsh-plugin-pure-chat
 ```
 
+> npm 发布需要账号 2FA；当前尚未发布时，请使用下面的 GitHub 或本地目录安装。
+
 
 ### 通过 GitHub
 
