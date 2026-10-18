@@ -1,9 +1,25 @@
 {
   "name": "dsh-plugin-pure-chat",
-  "version": "0.2.10",
-  "private": true,
+  "version": "0.3.0",
   "type": "module",
   "description": "DSH 对话区：独立分区、按会话人格、搜索筛选和新建对话。",
+  "license": "MIT",
+  "author": "zhulin4kai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhulin4kai/dsh-pure-chat.git"
+  },
+  "homepage": "https://github.com/zhulin4kai/dsh-pure-chat#readme",
+  "bugs": {
+    "url": "https://github.com/zhulin4kai/dsh-pure-chat/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "conversations",
+    "persona"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

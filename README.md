@@ -18,19 +18,29 @@ dsh-plugin-pure-chat/   Host + Client 单 bundle
 
 ## 安装
 
-DSH 的「添加插件」页面不是插件市场搜索页，只接受包名、GitHub 仓库地址或本地目录；仅在 GitHub 公开的仓库不会出现在可搜索列表里。
+### 通过 npm
 
-先克隆仓库：
+在 DSH 的「插件」→「添加插件」中输入包名：
+
+```text
+dsh-plugin-pure-chat
+```
+
+### 通过 GitHub
+
+在「添加插件」中输入仓库地址：
+
+```text
+https://github.com/zhulin4kai/dsh-pure-chat
+```
+
+### 本地目录
 
 ```bash
 git clone https://github.com/zhulin4kai/dsh-pure-chat.git
 ```
 
-然后在 DSH 的「插件」→「添加插件」中，把下面的**绝对路径**添加一次：
-
-```text
-<仓库路径>/dsh-plugin-pure-chat
-```
+然后在「添加插件」中填写仓库根目录的绝对路径。
 
 安装后重新加载页面。
 
