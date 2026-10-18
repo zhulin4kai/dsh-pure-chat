@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-pure-chat",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "type": "module",
   "description": "DSH 对话区：独立分区、按会话人格、搜索筛选和新建对话。",
   "license": "MIT",
